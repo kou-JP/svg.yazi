@@ -17,6 +17,7 @@ git clone https://github.com/kou-JP/svg.yazi.git %AppData%\yazi\config\plugins\s
 Add this to your `yazi.toml`:
 
 ```toml
+[plugin]
 prepend_previewers = [
   { name = "*.svg", exec = "svg" },
 ]
